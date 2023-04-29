@@ -1,0 +1,29 @@
+.heroArea
+{
+    text-align: center;
+    padding-top: 260px;
+}
+
+.heroArea > *
+{
+    margin: 8px auto;
+}
+
+.heroArea p 
+{
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .heroArea
+    {
+        padding-top: 128px;
+        margin: 0;
+    }
+
+    .heroArea p
+    {
+        font-size: 20px;
+    }
+}
