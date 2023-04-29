@@ -199,6 +199,16 @@ p
   border-radius: 50px;
 }
 
+.btn-primary:hover > img
+{
+  margin-left: 20px;
+}
+
+.btn-primary:hover
+{
+  padding: 16px 22px;
+}
+
 .btn > img
 {
   width: 20px;
