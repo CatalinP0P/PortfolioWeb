@@ -9,7 +9,7 @@ import css from "../Assets/css.svg";
 import vscode from "../Assets/vscode.svg"
 import mysql from "../Assets/mysql.svg";
 import git from "../Assets/github.svg";
-import figma from "../Assets/github.svg";
+import figma from "../Assets/figma.svg";
 
 
 export default function Tools() {
