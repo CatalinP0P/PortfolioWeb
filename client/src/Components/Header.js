@@ -33,8 +33,8 @@ export default function Header() {
         <div className='header container-1'>
             <div className='row headerLeft' >
                 <label className='h4Design' >Pop Catalin</label>
-                <p className='headerOptionals' > About me </p>
-                <p className='headerOptionals' onClick={() => scrollToContact()} > Contact </p>
+                <p className='headerOptionals' style={{cursor: "pointer"}} > About me </p>
+                <p className='headerOptionals' style={{cursor: "pointer"}} onClick={() => scrollToContact()} > Contact </p>
             </div>
             
             <div className='row headerRight' >
