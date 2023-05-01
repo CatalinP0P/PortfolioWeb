@@ -3,6 +3,7 @@ import "./MyWork.css";
 
 import gallery1 from "../Assets/photoGallery1.png";
 import gallery2 from "../Assets/photoGallery2.png";
+import gallery3 from "../Assets/photoGallery3.png";
 
 export default function MyWork() {
     const openTetris = () =>
@@ -18,6 +19,11 @@ export default function MyWork() {
     const openPacman = () =>
     {
         window.open("https://catalinp0p.github.io/PacmanJS/");
+    }
+
+    const openMeteo = () =>
+    {
+        window.open("https://catalinp0p.github.io/WeatherApp/")
     }
 
     const handleGallery1Click = (e) =>
@@ -36,7 +42,6 @@ export default function MyWork() {
             return;
         if ( x > (43/100) * imageWidth && x < (57/100) * imageWidth )
             return;
-
 
         if ( x < (25/100) * imageWidth )
             openTetris();
@@ -62,6 +67,13 @@ export default function MyWork() {
                 <h4> Asp.Net Full Stack Apps </h4>
                 <div>
                     <img src={gallery2} ></img>
+                </div>
+            </div>
+
+            <div className='gallery' >
+                <h4> Node.js + React.js + Rest </h4>
+                <div>
+                    <img src={gallery3} style={{cursor: "pointer"}} onClick={() => openMeteo()} ></img>
                 </div>
             </div>
         </div>
